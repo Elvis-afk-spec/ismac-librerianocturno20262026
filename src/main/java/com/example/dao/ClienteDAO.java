@@ -6,4 +6,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 public interface ClienteDAO  extends JpaRepository<Cliente, Integer> {
         Cliente findByCedula (String cedula);
 
+        //hola mi nombre es Elvis de la noble casa Mendoza
 }
