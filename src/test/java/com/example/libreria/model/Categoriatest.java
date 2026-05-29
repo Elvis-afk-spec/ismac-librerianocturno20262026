@@ -22,8 +22,8 @@ public class Categoriatest {
     public void testCategoriaConstructorAndGetters () {
         assertAll("Categoria",
                 () -> assertEquals(1, categoria.getId_categoria()),
-                () -> assertEquals("Ecuador", categoria.getDescripcion()),
-                () -> assertEquals("Elvis", categoria.getCategoria())
+                () -> assertEquals("Dark", categoria.getDescripcion()),
+                () -> assertEquals("Warhammer40k", categoria.getCategoria())
         );
         System.out.println(categoria.toString());
 
